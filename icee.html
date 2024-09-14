@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Ice Cream</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ffcccb;
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            background-color: #f7a3a3;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #ff6b6b;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background: url('ice-cream-hero.jpg') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            color: red;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .flavors, .media {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .flavor, .media-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        .media-item img, .media-item video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ffcccb;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Treats Ice Cream</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#flavors">Flavors</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Welcome to Sweet Treats!
+</h1> 
+        <p>Delicious ice cream made with love.</p> 
+
+<div style="text-align:center; margin-top;">
+<img src="logo11.png"></div>
+
+
+
+   
+ </div>
+
+
+
+
+
+    <div class="container">
+        <section id="flavors" class="flavors">
+            <div class="flavor">
+                <h2>Chocolate Delight</h2>
+                <img src="images1.jpeg" alt="Chocolate Delight">
+                <p>Rich and creamy chocolate ice cream made from the finest cocoa.</p>
+            </div>
+            <div class="flavor">
+                <h2>Vanilla Dream</h2>
+                <img src="download.jpeg" alt="Vanilla Dream">
+                <p>Classic vanilla ice cream with a smooth, creamy texture.</p>
+            </div>
+            <div class="flavor">
+                <h2>Strawberry Bliss</h2>
+                <img src="download (1).jpeg" alt="Strawberry Bliss">
+                <p>Fresh strawberry ice cream with chunks of real strawberries.</p>
+            </div>
+        </section>
+        <section id="media" class="media">
+            <div class="media-item">
+                <h2>Our Ice Cream in Action</h2>
+                <video controls>
+                    <source src="icecream.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Watch how we create our delicious ice cream!</p>
+            </div>
+            <div class="media-item">
+                <h2>Ice Cream Gallery</h2>
+                <img src="images.jpeg" alt="Ice Cream Gallery">
+                <p>Take a look at some of our favorite ice cream moments.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sweet Treats Ice Cream. All rights reserved.</p>
+    </footer>
+</body>
+</html>
